@@ -129,8 +129,55 @@
           </div>
         </div>
       </section>
+      <section class="contact section" if="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+          <div class="contact_info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">yo.mail.com</span>
+            <h3 class="contact__subtitle">ADDRESS</h3>
+            <span class="contact__text">United Kingdom</span>
+            <h3 class="contact__subtitle">Phone</h3>
+            <span class="contact__text">+22222222</span>
+          </div>
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="name" class="contact__input" />
+              <input type="mail" placeholder="Email" class="contact__input" />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="submit" value="enviar" class="contact__button" />
+          </form>
+        </div>
+      </section>
     </main>
     <!--footer-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Stefin Philip</h2>
+          <p class="footer__text">Personal website</p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">
+            <ul>
+              <li><a href="#home" class="footer__link">Home</a></li>
+              <li><a href="#about" class="footer__link">About</a></li>
+              <li><a href="#skills" class="footer__link">Skills</a></li>
+              <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+              <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+          </h2>
+        </div>
+      </div>
+    </footer>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
