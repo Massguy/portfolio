@@ -204,7 +204,7 @@ img {
 
 .home__scroll {
   align-self: flex-end;
-  padding-bottom: var(--mb-4);
+  padding-bottom: var(--mb-1);
   transform: rotate(-180deg);
   color: var(--white-color);
 }
@@ -219,7 +219,8 @@ img {
   position: absolute;
   right: 100px;
   bottom: 0;
-  width: 295px;
+  width: 175px;
+  height: 320px;
 }
 
 .about__container {
@@ -473,7 +474,7 @@ img {
 
   .portfolio__container {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     column-gap: 2rem;
   }
   .contact__container {
